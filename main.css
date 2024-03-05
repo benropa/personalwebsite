@@ -1,5 +1,5 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -10,15 +10,25 @@ body {
     background-color: rgb(233, 233, 233);
 }
 
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+
+h1:hover {
+    color: #28911b;
+    transition: all 0.5s ease;
+}
+
 header {
-    background-color: rgb(50, 193, 71);
+    background-color: rgb(233, 233, 233);
     font-family: Arial, sans-serif;
     color: #000000;
     text-align: center;
 }
 
 .linkBoxA {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(202, 202, 202);
     height: 30px;
     width: 100%;
     display: flex;
@@ -27,7 +37,7 @@ header {
 }
 
 .linkBox {
-    background-color: rgb(77, 73, 73);
+    background-color: rgb(202, 202, 202);
     height: 40px;
     width: 100%;
     display: flex;
@@ -43,7 +53,7 @@ header {
 }
 
 .headshotBox {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(202, 202, 202);
     height: 300px;
     align-items: center;
     display: flex;
@@ -51,10 +61,12 @@ header {
 }
 
 .headshotImage {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(202, 202, 202);
     height: 100%;
     width: 275px;
     border-radius: 20%;
+    outline-style:solid;
+    outline-width: 3px;
 }
 
 .containerWide {
@@ -125,5 +137,5 @@ main {
   }
 
   .btn1 {
-    color: rgb(233, 233, 233);
+    color: rgb(202, 202, 202);
   }
