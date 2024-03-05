@@ -1,19 +1,73 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 40px;
+    background-color: lightgoldenrodyellow;
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #bea3a3;
     font-family: Arial, sans-serif;
     color: #000000;
     text-align: center;
-    padding: 10px 0;
+}
+
+.linkBoxA {
+    background-color: blue;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkBox {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linkBox1 {
+    display: flex;
+    font-size: medium;
+}
+
+.linkBox2 {
+    display: flex;
+    font-size: medium;
+}
+
+.headshotBox {
+    background-color: black;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.headshotImage {
+    background-color: white;
+    height: 100%;
+    width: 275px;
+    border-radius: 20%;
+}
+
+.containerWide {
+    background-color: rgb(204, 80, 80);
+}
+
+.containerSmall {
+    background-color: aqua;
+    background-size: 20px;
+    width: 50px;
 }
 
 main {
-    padding: 20px;
+    background-color: #bea3a3;
 }
 
 .hero {
@@ -26,8 +80,9 @@ main {
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 300px;
     margin: 0 auto;
+
 }
 
 .features {
@@ -53,7 +108,6 @@ main {
 
 .footer {
     background-color: #333;
-    color: #fff;
+    color: #835050;
     text-align: center;
-    padding: 10px 0;
 }
