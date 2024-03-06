@@ -151,7 +151,13 @@ header {
     width: 200px;
   }
 
-  /* Experience Section */
+  /* Sections */
+
+.aboutMeSection {
+    background-color: rgb(185, 210, 235);
+    height: 800px;
+    width: 100%;
+}
 
   .linkTitle {
     background-color: black;
@@ -177,8 +183,13 @@ header {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  height: 200px;
+  height:auto;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 768px) {
@@ -190,4 +201,5 @@ header {
     flex: 0 0 calc(50% - 20px);
     margin-bottom: 20px;
   }
+
 }
