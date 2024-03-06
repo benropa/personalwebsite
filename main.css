@@ -1,47 +1,74 @@
-* {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
-body {
-    margin: 0;
-    padding-top: 60px;
-    padding-right: 100px;
-    padding-left: 100px;
-    background-color: rgb(233, 233, 233);
+.bodyAll {
+    padding-right: 250px;
+    padding-left: 250px;
+    background-color: rgb(185, 210, 235);
 }
 
 h1 {
     color: rgb(0, 0, 0);
-    font-size: 45px;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.hover-effect span:hover {
+    color: #094aff;
+    transition: all 0.5s ease;
+  }
+
 h1:hover {
-    color: #28911b;
+    color: #83a4ff;
     transition: all 0.5s ease;
 }
 
+.headContainer {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(185, 210, 235);
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
 header {
-    background-color: rgb(233, 233, 233);
-    font-family: Arial, sans-serif;
+    background-color: rgb(185, 210, 235);
     color: #000000;
-    text-align: center;
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.mainContainer {
+    background-color: rgb(185, 210, 235);
+    height: 100%;
+    width: 100%;
 }
 
 .linkBoxA {
     background-color: rgb(202, 202, 202);
-    height: 30px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-top: 8px;
+    
 }
 
 .linkBox {
     background-color: rgb(202, 202, 202);
-    height: 40px;
+    height: 30px;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .linkBox1 {
@@ -53,24 +80,38 @@ header {
 }
 
 .headshotBox {
-    background-color: rgb(202, 202, 202);
-    height: 300px;
+    height: 500px;
     align-items: center;
+    justify-content: space-evenly;
     display: flex;
-    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(185, 210, 235);
+    width: 100%;
+    display: flex;
+}
+
+.autoText2 {
+    padding: 100px;
+    background-color: rgb(185, 210, 235);
+    height: 60%;
+    width: 500px;
+    outline-style:solid;
+    outline-width: 1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .headshotImage {
     background-color: rgb(202, 202, 202);
-    height: 100%;
-    width: 275px;
-    border-radius: 20%;
+    height: 500px;
+    width: 700px;
     outline-style:solid;
-    outline-width: 3px;
+    outline-width: 1px;
+    border-radius: 3px;
 }
 
 .containerWide {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(164, 27, 27);
 }
 
 .containerSmall {
@@ -80,33 +121,7 @@ header {
 }
 
 main {
-    background-color: #bea3a3;
-}
-
-.hero {
-    background-image: url('https://via.placeholder.com/1200x400');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.hero-content {
-    max-width: 300px;
-    margin: 0 auto;
-
-}
-
-.features {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-.feature {
-    text-align: center;
-    max-width: 300px;
+    background-color: #57b169;
 }
 
 .footer {
@@ -116,26 +131,68 @@ main {
 }
 
 .btn {
-    
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     transition: all 0.3s ease;
     background-color: rgb(233, 233, 233);
     width: 140px;
     height: 30px;
-    outline-style:solid;
-    outline-width: 1px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: #28911b; 
+    color: #3a5bff; 
   }
 
   .btn1 {
-    color: rgb(202, 202, 202);
+    color: rgb(208, 25, 25);
+  }
+
+  .body1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+  }
+  
+  .container {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  /* Blinking cursor animation */
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .blink {
+    animation: blink 1s step-end infinite;
+  }
+
+  .bandOne {
+    padding: none;
+    background-color: black;
+    height: 400px;
+  }
+
+  .projectsContainer {
+    background-color: whitesmoke;
+    height: 200px;
+    width: 200px;
+  }
+
+  .projectsListed {
+    background-color: aliceblue;
+    height: 200px;
+    width: 200px;
   }
