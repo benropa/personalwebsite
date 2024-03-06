@@ -1,3 +1,6 @@
+html {
+    height:100%;
+}
 
 .bodyAll {
     padding-right: 250px;
@@ -55,33 +58,9 @@ header {
     width: 100%;
 }
 
-.linkBoxA {
-    background-color: rgb(202, 202, 202);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.linkBox {
-    background-color: rgb(202, 202, 202);
-    height: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.linkBox1 {
-    display: flex;
-}
-
-.linkBox2 {
-    display: flex;
-}
-
 .headshotBox {
-    height: 500px;
-    align-items: center;
+    height: 550px;
+    align-items:flex-start;
     justify-content: space-evenly;
     display: flex;
     color: rgb(0, 0, 0);
@@ -90,38 +69,13 @@ header {
     display: flex;
 }
 
-.autoText2 {
-    padding: 100px;
-    background-color: rgb(185, 210, 235);
-    height: 60%;
-    width: 500px;
-    outline-style:solid;
-    outline-width: 1px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .headshotImage {
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(185, 210, 235);
     height: 500px;
     width: 700px;
     outline-style:solid;
     outline-width: 1px;
     border-radius: 3px;
-}
-
-.containerWide {
-    background-color: rgb(164, 27, 27);
-}
-
-.containerSmall {
-    background-color: aqua;
-    background-size: 20px;
-    width: 50px;
-}
-
-main {
-    background-color: #57b169;
 }
 
 .footer {
@@ -156,7 +110,7 @@ main {
   .body1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: rgb(255, 255, 255);
+    background-color: rgb(185, 210, 235);
     font-size: 10px;
   }
   
@@ -196,3 +150,44 @@ main {
     height: 200px;
     width: 200px;
   }
+
+  /* Experience Section */
+
+  .linkTitle {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+  .card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(185, 210, 235);
+}
+
+.card {
+  flex: 0 0 calc(33.333% - 20px);
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 0 0 calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+}
