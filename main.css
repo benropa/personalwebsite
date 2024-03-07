@@ -1,11 +1,11 @@
-html {
-    height:100%;
-}
+
+body {
+    margin: 0;
+  }
 
 .bodyAll {
     padding-right: 250px;
     padding-left: 250px;
-    background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -155,22 +155,23 @@ header {
 
   .holdingAboutMe {
     background-color: rgb(20, 33, 61);
+    width: 100%;
   }
 
 .aboutMeSection {
+    padding-top: 30px;
     background-color: rgb(20, 33, 61);
-    height: 800px;
+    height: 400px;
     width: 100%;
-    padding-top: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     padding: 10px;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -179,7 +180,7 @@ header {
     color: white;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding-top: 40px;
     font-family:'Courier New', Courier, monospace;
     font-size: 40px;
     font-weight: bold;
@@ -224,34 +225,50 @@ header {
 /* CONTACT ME SECTION */
 
 .contact-container {
-    background-color: rgb(166, 206, 241);
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
+    max-width: auto;
+    background-color: #000000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contactLogo {
+    background-color: #000000;
+    padding: 50px;
   }
   
   .contact-buttons {
-    margin-top: 20px;
+    background-color: #bcc2cc;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
   }
   
   .email-button,
-  .linkedin-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0 10px;
-    background-color: #007bff;
+  .linkedin-button,
+  .github-button {
+    background-color: #0fa5fc;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
   }
   
   .email-button:hover,
-  .linkedin-button:hover {
+  .linkedin-button:hover,
+  .github-button:hover {
     background-color: #0056b3;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .brLogo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 250px;
+    width: 250px;
   }
