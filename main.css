@@ -1,3 +1,4 @@
+/* MAIN */
 
 body {
     margin: 0;
@@ -7,6 +8,8 @@ body {
     padding-right: 250px;
     padding-left: 250px;
 }
+
+/* HEADER SECTION */
 
 h1 {
     color: rgb(0, 0, 0);
@@ -54,38 +57,6 @@ header {
     font-weight: 800;
 }
 
-.mainContainer {
-    background-color: rgb(229, 229, 229);
-    height: 100%;
-    width: 100%;
-}
-
-.headshotBox {
-    height: 550px;
-    align-items:flex-start;
-    justify-content: space-evenly;
-    display: flex;
-    color: rgb(0, 0, 0);
-    background-color: rgb(229, 229, 229);
-    width: 100%;
-    display: flex;
-}
-
-.headshotImage {
-    background-color: rgb(229, 229, 229);
-    height: 500px;
-    width: 700px;
-    outline-style:solid;
-    outline-width: 1px;
-    border-radius: 3px;
-}
-
-.footer {
-    background-color: #333;
-    color: #835050;
-    text-align: center;
-}
-
 .btn {
     border: none;
     border-radius: 5px;
@@ -106,14 +77,7 @@ header {
     color: #00000069; 
   }
 
-  .body1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: rgb(229, 229, 229);
-    font-size: 10px;
-  }
-  
-  .container {
+.containerFeature {
     padding: 10px;
     padding-bottom: 20px;
     padding-left: 15px;
@@ -121,39 +85,32 @@ header {
     font-family:'Courier New', Courier, monospace;
     background-color: rgb(229, 229, 229);
   }
+
+/* HEADSHOT IMAGE SECTION */
+
+.headshotBox {
+    height: 550px;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    display: flex;
+}
+
+.headshotImage {
+    background-color: rgb(229, 229, 229);
+    height: 500px;
+    width: 700px;
+    outline-style:solid;
+    outline-width: 1px;
+    border-radius: 3px;
+}
   
-  /* Blinking cursor animation */
-  @keyframes blink {
-    50% {
-      opacity: 0;
-    }
-  }
-  
-  .blink {
-    animation: blink 1s step-end infinite;
-  }
+/* ABOUT ME SECTION */
 
-  .bandOne {
-    padding: none;
-    background-color: black;
-    height: 400px;
-  }
-
-  .projectsContainer {
-    background-color: whitesmoke;
-    height: 200px;
-    width: 200px;
-  }
-
-  .projectsListed {
-    background-color: aliceblue;
-    height: 200px;
-    width: 200px;
-  }
-
-  /* Sections */
-
-  .holdingAboutMe {
+.holdingAboutMe {
     background-color: rgb(20, 33, 61);
     width: 100%;
   }
@@ -187,20 +144,36 @@ header {
     width: 100%;
   }
 
+/* EXPERIENCE SECTION */
+
+  .linkTitle2 {
+    background-color: rgb(252, 163, 17);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+  }
+
   .card-container {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
   padding: 20px;
-  background-color: rgb(166, 206, 241);
+  padding-bottom: 50px;
+  background-color: rgb(252, 163, 17);
 }
 
 .card {
-  flex: 0 0 calc(33.333% - 20px);
   background-color: #f9f9f9;
-  padding: 20px;
+  width: 400px;
+  height: 600px;
+  padding: 25px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  height:auto;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -271,4 +244,48 @@ header {
     align-items: flex-end;
     height: 250px;
     width: 250px;
+  }
+
+  /* PROJECTS SECTION */
+
+
+  .linkTitle3 {
+    background-color: rgb(20, 33, 61);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .linkTitle4 {
+    background-color: rgb(20, 33, 61);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+
+  /* OTHER */
+  .sectionSeparater {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sectionMiddle {
+    width: 600px;
+    background-color: grey;
+    height: auto;
   }
