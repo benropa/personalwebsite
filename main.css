@@ -11,47 +11,56 @@ body {
 
 /* HEADER SECTION */
 
+.linkTitleHeader {
+    background-color: rgb(20, 33, 61);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.37);
+  }
+
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 50px;
     padding-left: 15px;
     padding-right: 15px;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hover-effect span:hover {
-    color: #094aff;
+    color: #ffffff;
     transition: all 0.5s ease;
     font-weight: bold;
   }
 
 h1:hover {
-    color: #83a4ff;
+    color: #3d9cf5;
     transition: all 0.5s ease;
 }
 
-.headContainer {
+.headerBtnContainer {
     align-items: center;
     justify-content: space-evenly;
     display: flex;
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(20, 33, 61);
     width: 600px;
     font-family:'Courier New', Courier, monospace;
 }
 
-.line {
-    background-color: black;
-    height: 2px;
-    width: 100%;
-}
-
 header {
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(20, 33, 61);
     color: #000000;
     align-items:center;
     justify-content: space-between;
     display: flex;
-    width: 100%;
+    width: 65%;
     height: 70px;
     padding-top: 20px;
     font-weight: 800;
@@ -63,32 +72,24 @@ header {
     cursor: pointer;
     font-size: 18px;
     transition: all 0.3s ease;
-    background-color: rgb(229, 229, 229);
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 33, 61);
     width: 140px;
     height: 30px;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
   }
   
   .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.501);
-    color: #00000069; 
-  }
-
-.containerFeature {
-    padding: 10px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace;
-    background-color: rgb(229, 229, 229);
+    text-decoration: underline;
   }
 
 /* HEADSHOT IMAGE SECTION */
 
 .headshotBox {
+    padding-top: 80px;
     height: 550px;
     align-items:flex-start;
     justify-content: space-evenly;
@@ -97,15 +98,16 @@ header {
     background-color: rgb(229, 229, 229);
     width: 100%;
     display: flex;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.37);
+    padding-bottom: 60px;
 }
 
 .headshotImage {
     background-color: rgb(229, 229, 229);
     height: 500px;
     width: 700px;
-    outline-style:solid;
-    outline-width: 1px;
     border-radius: 3px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.37);
 }
   
 /* ABOUT ME SECTION */
@@ -113,22 +115,24 @@ header {
 .holdingAboutMe {
     background-color: rgb(20, 33, 61);
     width: 100%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.37);
   }
 
 .aboutMeSection {
-    padding-top: 30px;
+    padding-top: 40px;
     background-color: rgb(20, 33, 61);
     height: 400px;
     width: 100%;
     color: white;
     font-size: 25px;
     display: flex;
-    padding: 10px;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 70px;
     text-align: center;
 }
 
@@ -137,11 +141,12 @@ header {
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 40px;
-    font-family:'Courier New', Courier, monospace;
+    padding-top: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-weight: bold;
     width: 100%;
+    box-shadow: 0 -10px 10px -2px rgba(0, 0, 0, 0.37);
   }
 
 /* EXPERIENCE SECTION */
@@ -151,11 +156,14 @@ header {
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    padding-top: 40px;
-    font-family:'Courier New', Courier, monospace;
+    padding-top: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-weight: bold;
     width: 100%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 -10px 10px -2px rgba(0, 0, 0, 0.37);
   }
 
   .card-container {
@@ -163,23 +171,28 @@ header {
   align-items: center;
   justify-content: space-evenly;
   padding: 20px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 80px;
   background-color: rgb(252, 163, 17);
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.37);
 }
 
 .card {
   background-color: #f9f9f9;
+  padding-top: 40px;
   width: 400px;
   height: 600px;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
 }
 
 @media screen and (max-width: 768px) {
@@ -194,98 +207,159 @@ header {
 
 }
 
+  /* PROJECTS SECTION */
+
+  .linkTitle3 {
+    background-color: rgb(42, 157, 143);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 -10px 10px -2px rgba(0, 0, 0, 0.37);
+  }
+
+  .card-container2 {
+    background-color: rgb(42, 157, 143);
+    height: 500px;
+    padding-top: 60px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.37);
+  }
+
+
+  .cards2 {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+  }
+  
+  .card2 {
+    width: calc(25% - 20px);
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: 42, 157, 143;
+    text-decoration: none;
+  }
+
+  .card2:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
 
 /* CONTACT ME SECTION */
 
-.contact-container {
-    max-width: auto;
-    background-color: #000000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+.linkTitle4 {
+    background-color: rgb(20, 33, 61);
+    color: white;
     display: flex;
     justify-content: center;
+    padding-top: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 -10px 10px -2px rgba(0, 0, 0, 0.37);
   }
 
-  .contactLogo {
-    background-color: #000000;
-    padding: 50px;
-  }
-  
-  .contact-buttons {
-    background-color: #bcc2cc;
-    width: 80px;
+.headshot2 { 
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.contact-container {
+    background-color: rgb(20, 33, 61);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.37);
+    width: 100%;
+    height: 100px;
+  }
+
+  .contactButtonContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(20, 33, 61);
+    width: 600px;
   }
   
   .email-button,
   .linkedin-button,
   .github-button {
-    background-color: #0fa5fc;
-    color: #fff;
-    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(20, 33, 61);
+    border: none;
     border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .email-button:hover,
   .linkedin-button:hover,
   .github-button:hover {
-    background-color: #0056b3;
-    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-3px);
   }
-
-  .brLogo {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 250px;
-    width: 250px;
-  }
-
-  /* PROJECTS SECTION */
-
-
-  .linkTitle3 {
-    background-color: rgb(20, 33, 61);
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 40px;
-    font-weight: bold;
-    width: 100%;
-  }
-
-  .linkTitle4 {
-    background-color: rgb(20, 33, 61);
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 40px;
-    font-weight: bold;
-    width: 100%;
-  }
-
 
   /* OTHER */
   .sectionSeparater {
     width: 100%;
-    background-color: black;
-    height: 100px;
-    display: flex;
+    background-color: rgb(255, 255, 255);
+    height:200px;
     align-items: center;
     justify-content: center;
+    display: inline-block;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.37);
   }
 
   .sectionMiddle {
-    width: 600px;
-    background-color: grey;
-    height: auto;
+    background-color: rgb(229, 229, 229);
+    height:204px;
   }
+
+  .sectionSeparaterSmall {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height:60px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.37);
+  }
+
+  .sectionMiddleSmall {
+    background-color: rgb(229, 229, 229);
+    height:64px;
+  }
+  
