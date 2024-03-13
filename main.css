@@ -1,5 +1,16 @@
 /* MAIN */
 
+.everything {
+    display:inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .everything {
+      flex-wrap: wrap;
+    }
+  
+  }
+
 body {
     margin: 0;
   }
