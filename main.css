@@ -312,8 +312,10 @@ header {
     background-color: rgb(20, 33, 61);
     height: 280px;
     width: 270px;
-    border: white;
-    border-width: 1px;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
 }
 
 .contact-container {
