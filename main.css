@@ -2,11 +2,13 @@
 
 .everything {
     display:inline-block;
+    font-size: 1.2vw;
 }
 
 @media screen and (max-width: 768px) {
     .everything {
       flex-wrap: wrap;
+      font-size: 1.8vw;
     }
   
   }
