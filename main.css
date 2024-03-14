@@ -54,7 +54,7 @@ h1 {
   }
 
 h1:hover {
-    color: #3d9cf5;
+    color:  rgb(17, 148, 224);
     transition: all 0.5s ease;
 }
 
